@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List all members</title>
+    <link rel="stylesheet" href="List_members.css">
+</head>
+<body>
+    <div class="imgList">
+        <!-- title -->
+        <p class="imgList__title">Danh sách thành viên gia tộc</p>
+
+        <!-- input form -->
+        <div class="imgList__inputForm"> 
+          <!-- <div class="form">            -->
+            <div class="imgList__form--0">
+              <label class="form__infor">Tên </label>
+              <input type="text" id="form__name" name="form__name" placeholder="Nhập tên" class="form__frameName">
+            </div>
+            
+            <div class="imgList__form--1">
+              <label class="form__infor" >Giới tính </label>
+              <select>
+                <option value="0">Tất cả</option>
+                <option value="1">Nam</option>
+                <option value="2">Nữ</option>
+                <option value="3">Thứ 3</option>
+              </select>
+            </div>
+            
+            <div class="imgList__form--2">
+              <label class="form__infor">Đã mất </label>
+              <select>
+                <option value="0">Mất</option>
+                <option value="1">Sống</option>                                  
+              </select>
+            </div>
+
+            <div class="imgList__form--3">
+              <label class="form__infor">Chi </label>
+              <select>
+                <option value="0">Tất cả</option>
+                <option value="1">a</option>
+                <option value="2">b</option>
+                <option value="3">c</option>
+                <option value="4">d</option>
+                <option value="5">e</option>
+                <option value="6">f</option>
+                <option value="7">g</option>
+              </select>
+            </div>
+            
+            <div class="imgList__button">
+              <div class="imgList__button--white">
+                <p class="button__delete">Xoá lọc</p>
+              </div>
+              <div class="imgList__button--yellow">
+                <p class="button__search">Tìm kiếm</p>
+              </div>
+            </div>
+                        
+          <!-- </div> -->
+        </div>
+
+        <!-- list table -->
+        <table>
+          <tbody style="width: 100%;">
+            <tr style="width: 100%; height: 40px;">
+              <th class="table__stt" style="border-radius: 20px 0px 0px 0px;">STT</th>
+              <th class="table__name">Tên</th>
+              <th class="table__date--Positive">Ngày sinh(dương)</th>
+              <th class="table__date--Negative">Ngày sinh(âm)</th>
+              <th class="table__die">Đã mất</th>
+              <th class="table__dieDay--Positive">Ngày mất(dương)</th>
+              <th class="table__dieDay--Negative">Ngày mất(âm)</th>
+              <th class="table__anniversary">Ngày giỗ(âm)</th>
+              <th class="table__sex">Giới tính</th>
+              <th class="table__branch" style="border-radius: 0px 20px 0px 0px;">Chi</th>
+            </tr>
+  
+            <tr>
+              <td class="table__stt">1</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">2</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">3</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">4</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">5</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">6</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">7</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">8</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt">9</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch">1</td>
+            </tr>
+
+            <tr>
+              <td class="table__stt" style="border-radius: 0px 0px 0px 20px;">10</td>
+              <td class="table__name">Nguyễn Đức B</td>
+              <td class="table__date--Positive">01/01/1987</td>
+              <td class="table__date--Negative">14/02/Đinh hợi</td>
+              <td class="table__die"><p class="cell__die">Đã mất</p></td>
+              <td class="table__dieDay--Positive">02/02/1996</td>
+              <td class="table__dieDay--Negative">14/1/Canh tỵ</td>
+              <td class="table__anniversary">14/1/Canh tỵ</td>
+              <td class="table__sex"><p class="cell__sex">Nam</p></td>
+              <td class="table__branch" style="border-radius: 0px 0px 20px 0px;">1</td>
+            </tr>
+          </tbody>                  
+        </table>
+
+        <!-- page split -->
+        <div class="imgList__pageSplit">
+            <div class="imgList__titleNumber">
+              <p>Đang xem 10/100 thành viên</p>
+            </div>
+            <div class="imgList__pageNumber">
+                <div class="imgList__icon1"></div>
+
+                <p class="imgList__numberOfPage--1">1</p>
+                <p class="imgList__numberOfPage--2">2</p>
+                <p class="imgList__numberOfPage--3">3</p>
+                <p class="imgList__numberOfPage--vv">...</p>                
+
+                <div class="imgList__icon2"></div>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
